@@ -25,8 +25,8 @@
 
 // ESP 32 DISPLAY HARDWARE SETTINGS (screen type & connections)
 #define TFT_COUNT 2        // Number of screens (1 or 2)
-#define TFT1_CS 21         // TFT 1 chip select pin (set to -1 to use TFT_eSPI setup)
-#define TFT2_CS 22         // TFT 2 chip select pin (set to -1 to use TFT_eSPI setup)
+#define TFT1_CS 0         // TFT 1 chip select pin (set to -1 to use TFT_eSPI setup)
+#define TFT2_CS 4         // TFT 2 chip select pin (set to -1 to use TFT_eSPI setup)
 #define TFT_1_ROT 2        // TFT 1 rotation // 0 = 0° pins bottom, 2 = 180° pins top
 #define TFT_2_ROT 2        // TFT 2 rotation
 #define EYE_1_XPOSITION  0 // x shift for eye 1 image on display
